@@ -1,0 +1,14 @@
+In line number 18 of your output:
+The output should be:
+    1: Quick Silver            Health: 100% ( 950/ 950)  Attack:   58  Defense:   77
+                                         ^
+But your output is: 
+    1: Quick Silver            Health: 105% (1000/ 950)  Attack:   57  Defense:   77
+                                         ^
+
+Unmatched character details:
+The character in column 42 is supposed to be:
+  [0] ASCII code(48)
+but you printed
+  [5] ASCII code(53)
+
